@@ -44,6 +44,8 @@ namespace SOAPServices
                 Correo = correo,
                 Rol = rolExistente,
                 Password = password
+
+                //demo
             };
             return UsuarioDAO.Crear(usuarioACrear);
         }

@@ -67,7 +67,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Usuario.hbm.xml" />
     <EmbeddedResource Include="Dominio\Rol.hbm.xml" />
-    <Content Include="Logo.svc" />
     <Content Include="Usuarios.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -75,10 +74,6 @@
     <Compile Include="Dominio\Rol.cs" />
     <Compile Include="Dominio\Usuario.cs" />
     <Compile Include="IUsuarios.cs" />
-    <Compile Include="Logo.svc.cs">
-      <DependentUpon>Logo.svc</DependentUpon>
-    </Compile>
-    <Compile Include="ILogo.cs" />
     <Compile Include="Persistencia\BaseDAO.cs" />
     <Compile Include="Persistencia\ConexionUtil.cs" />
     <Compile Include="Persistencia\NHibernateHelper.cs" />
